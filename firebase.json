@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "auth-jwt-example-d0d2",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
